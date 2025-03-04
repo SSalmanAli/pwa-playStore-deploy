@@ -1,0 +1,40 @@
+{
+  "name": "Hello",
+  "short_name": "App",
+  "description": "A Progressive Web App Example",
+  "screenshots": [
+    {
+      "src": "/1.jpg",
+      "sizes": "1920x1080",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/ss.png",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "form_factor": "wide"  
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "id": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#801811",
+  "theme_color": "#801811",
+  "display_override": ["fullscreen", "minimal-ui", "standalone"]
+}
