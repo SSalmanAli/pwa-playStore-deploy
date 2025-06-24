@@ -2,14 +2,21 @@
   "name": "Hello",
   "short_name": "App",
   "description": "A Progressive Web App Example",
-  "start_url": "/",
-  "id": "/",
+  "start_url": "/index.html",
+  "id": "/index.html",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#801811",
   "theme_color": "#801811",
-  "display_override": ["fullscreen", "minimal-ui", "standalone"],
+  "dir": "ltr",
+  "lang": "en-US",
+  "launch_handler": {
+    "client_mode": "auto"
+  },
+  "display_override": ["standalone"],
+  "prefer_related_applications": false,
+  "categories": ["utilities", "productivity"],
   "screenshots": [
     {
       "src": "/1.jpg",
@@ -19,8 +26,8 @@
     {
       "src": "/ss.png",
       "sizes": "512x512",
-      "type": "image/jpeg",
-      "form_factor": "wide"  
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ],
   "icons": [
